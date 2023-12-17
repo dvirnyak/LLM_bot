@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cashe/
+.env
+venv/
+.idea/
+data/users_info.db
