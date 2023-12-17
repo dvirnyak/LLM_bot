@@ -7,5 +7,5 @@ def write_msg(user_id, message):
 
 def msg_handler(user_id, request):
     # Каменная логика ответа
-    answer = llm_answer(user_id, request)
+    answer = llm_answer(user_id, None, request)
     write_msg(user_id, answer)

@@ -4,6 +4,7 @@ from config import vk
 from msg_handler import msg_handler
 
 def bot():
+
     longpoll = VkLongPoll(vk)
 
     for event in longpoll.listen():
